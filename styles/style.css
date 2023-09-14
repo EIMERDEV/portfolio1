@@ -1,9 +1,27 @@
 body{
-    background-color: white;
+    height: 2000px;
+    background-color: rgba(241, 241, 241, 0.7);
+    position: absolute;
+    margin-top:10px;
+    max-zoom: 200%;
+    transform: scale(100%);
+}
 
+/* Header Start*/
+header{
+    height: 50px;
 }
 .logo{
-    margin-right: 440px;
+    margin-right: 540px;
+    transition: 0.5s;
+}
+.logo:hover{
+    box-shadow: 0 0 35px orange;
+    border-radius: 75%;
+}
+.logo_link:hover{
+    opacity: 0.8;
+    
 }
 .link1{
     margin-right: 40px;
@@ -14,7 +32,17 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+
+    /* Animation of Line under link*/
+    text-decoration: none;
+    background-image: linear-gradient(black, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
+
+
 .link2{
     margin-right: 40px;
     width: 63px;
@@ -24,6 +52,14 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+
+    /* Animation of Line under link*/
+    text-decoration: none;
+    background-image: linear-gradient(black, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 .link3{
     margin-right: 40px;
@@ -34,6 +70,14 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+
+    /* Animation of Line under link*/
+    text-decoration: none;
+    background-image: linear-gradient(black, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 .link4{
     margin-right: 40px;
@@ -44,6 +88,14 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+
+    /* Animation of Line under link*/
+    text-decoration: none;
+    background-image: linear-gradient(black, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 .link5{
     margin-right: 40px;
@@ -54,4 +106,366 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+
+    /* Animation of Line under link*/
+    text-decoration: none;
+    background-image: linear-gradient(black, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.log_button {
+    width: 80px;
+    height: 32px;
+    border-radius: 15px;
+    border-color: white;
+    background-color: black;
+    flex-shrink: 0;
+    border-style: solid;
+    transition: 0.5s;
+}
+.log_link{
+    width: 35px;
+    color: #F9F9F9;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+.log_form{
+    position: relative;
+    left: 1250px;
+    bottom: 25px;
+    width: 1310px;
+    height: 5413px;
+    flex-shrink: 0;
+}
+/*Animation links of header start*/
+.link1:hover{
+    opacity: 0.7;
+    background-size: 100% 2px;
+}
+.link2:hover{
+    opacity: 0.7;
+    background-size: 100% 2px;
+}
+.link3:hover{
+    opacity: 0.7;
+    background-size: 100% 2px;
+}
+.link4:hover{
+    opacity: 0.7;
+    background-size: 100% 2px;
+}
+.link5:hover{
+    opacity: 0.7;
+    background-size: 100% 2px;
+}
+.log_button:hover{
+    box-shadow: 0 0 35px black;
+    transition: 0.5s;
+}
+.log_link:active{
+    opacity: 0.7;
+    color:orange;
+}
+.log_button:active{
+    opacity: 0.7;
+    background-color: rgba(7, 7, 7, 0.644);
+
+    /*Animation links of header end*/
+}
+/* Header End */
+/* Main Start */
+
+.zag{
+    position: relative;
+    left: 40px;
+    justify-content: space-between;
+    width: 263px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+.right_zag{
+    position: relative;
+    left: 220px;
+    top:55px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.under_zag{
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+    width: 402px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+}
+.zag_img{
+    position: relative;
+    left:700px;
+    bottom: 350px;
+    width: 630px;
+    height: 652px;
+    flex-shrink: 0;
+}
+.try_button{
+    position: relative;
+    bottom: 660px;
+    left: 40px;
+    width: 160px;
+    height: 46px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    background: #FFAE33;
+    flex-shrink: 0;
+    border-color:black;
+    border:10px;
+    transition: 0.5s;
+}
+.try_link{
+    width: 68px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.5px;
+    text-align: center;
+    text-decoration: none;
+}
+.try_button:hover{
+    
+    box-shadow: 0 0 35px orange;
+}
+.img_try{
+    position: relative;
+    bottom: 640px;
+    left: 48px;
+}
+.try1{
+    margin-right: 25px;
+    transition: 0.5s;
+}
+.try2{
+    margin-right: 25px;
+    transition: 0.5s;
+}
+.try3{
+    transition: 0.5s;
+}
+
+.try1:hover{
+    box-shadow: 0 0 15px orange;
+    background-color: orange;
+    border-radius: 10px;
+}
+.try2:hover{
+    box-shadow: 0 0 15px black;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.try3:hover{
+    box-shadow: 0 0 15px aqua;
+    background-color: aqua;
+    border-radius: 4px;
+}
+.proj{
+    position: relative;
+    bottom:400px;
+    left:550px;
+    width: 362px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.72px;
+    text-align: center;
+}
+.proj_line{
+    position: relative;
+    bottom: 400px;
+    left:200px;
+    width: 1077px;
+    color: #999795;
+    font-family: Roboto;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63.72px;
+    text-align: center;
+    text-decoration: line-through;
+}
+.CI{
+    position: relative;
+    bottom:260px;
+    width: 495px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: 40px;
+}
+.CI_p{
+    position: relative;
+    bottom:260px;
+    width: 495px;
+    width: 648px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    margin-left: 40px;
+}
+.code_frame{
+    position: relative;
+    bottom:500px;
+    left: 800px;
+    background-color: black;
+    width: 590px;
+    height: 520px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    background: white;
+    box-shadow: 0 0 35px gray;
+}
+.orange_code{
+    color:orange;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    margin-top: -75px;
+}
+.gray_code{
+    position: relative;
+    bottom: 56px;
+    left: 120px;
+    width: 648px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+}
+.gray_code_exit{
+    position: relative;
+    bottom: 56px;
+    left: 30px;
+    width: 648px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    margin-top:0px ;
+}
+.orange_code_git{
+    color:orange;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    margin-top: -35px;
+}
+.blue_code_git{
+    position: relative;
+    left: 80px;
+    color:aqua;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    margin-top: -53px;
+}
+.gray_code_git{
+    position: relative;
+    bottom: 56px;
+    left: 210px;
+    width: 648px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    margin-top: 5px ;
+}
+.code_button{
+    position: relative;
+    bottom: 680px;
+    left: 40px;
+    width: 160px;
+    height: 46px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    background: #FFAE33;
+    flex-shrink: 0;
+    border-color:black;
+    border:10px;
+    transition: 0.5s;
+}
+.code_link{
+    width: 68px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.5px;
+    text-align: center;
+    text-decoration: none;
+}
+.code_button:hover{
+    box-shadow: 0 0 35px orange;
+}
+.remote_zag{
+    position: relative;
+    bottom: 400px;
+    left: 350px;
+    width: 775px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.82px;
+    text-align: center;
+}
+.remote_img{
+    position: relative;
+    bottom: 370px;
+    left:85px;
+    width: 1269px;
+    height: 821px;
+    border-radius: 14px;
+    box-shadow: -2px 2px 15px 8px rgba(255, 138, 0, 0.40);
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    flex-shrink: 0;
 }
