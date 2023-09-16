@@ -471,7 +471,7 @@ header{
     background: url(<path-to-image>), lightgray 50% / contain no-repeat;
     flex-shrink: 0;
 }
-.shkola{
+.under_remote{
     position: relative;
     width: 877px;
     height: 96px;
@@ -485,7 +485,7 @@ header{
     left: 282px;
     bottom: 343px;
 }
-.uchebnik{
+.under_remote_img{
     width: 207px;
     height: 47px;
     flex-shrink: 0;
