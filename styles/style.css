@@ -1,5 +1,5 @@
 body{
-    height: 2000px;
+    height: 3000px;
     background-color: rgba(241, 241, 241, 0.7);
     position: absolute;
     margin-top:10px;
@@ -488,7 +488,7 @@ header{
 .under_remote_button{
     position: relative;
     bottom: 300px;
-    left: 500px;
+    left: 400px;
     width: 207px;
     height: 47px;
     flex-shrink: 0;
@@ -500,8 +500,8 @@ header{
 }
 .under_remote_button2{
     position: relative;
-    bottom: 300px;
-    left: 570px;
+    bottom: 347px;
+    left: 800px;
     width: 207px;
     height: 47px;
     flex-shrink: 0;
@@ -526,4 +526,103 @@ header{
 .link_under_remote:hover{
     opacity: 0.7;
 
+}
+.dev{    
+    position: relative;
+    bottom: 104px;
+    left:340px;
+    text-align: center;
+    width: 747px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.72px;
+
+}
+.used1{
+    width: 384px;
+    height: 248px;
+    border-radius: 16px;
+    background: #FFF;
+    flex-shrink: 0;
+    margin-bottom: 102px;
+    margin-left: 40px;
+}
+.used2{
+    position: relative;
+    left:500px;
+    bottom: 350px;
+    width: 384px;
+    height: 248px;
+    border-radius: 16px;
+    background: #FFF;
+    flex-shrink: 0;
+    margin-bottom: 100px;
+}
+.used3{
+    position: relative;
+    left: 950px;
+    bottom: 698px;
+    width: 384px;
+    height: 248px;
+    border-radius: 16px;
+    background: #FFF;
+    flex-shrink: 0;
+    margin-bottom: 100px;
+}
+.used1_p1{
+    width: 179px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.used1_p2{
+    width:335px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 20px;
+    padding-top: 0px;
+}
+.used1_img{
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    flex-shrink: 0;
+    margin-left: 15px;
+}
+.used1_p3{
+    position: relative;
+    left: 75px;
+    bottom: 67px;
+    width: 89px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.used1_p4{
+    position: relative;
+    bottom: 80px;
+    left: 75px;
+    width: 300px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
