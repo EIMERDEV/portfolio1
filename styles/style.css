@@ -529,7 +529,7 @@ header{
 }
 .dev{    
     position: relative;
-    bottom: 104px;
+    bottom: 70px;
     left:340px;
     text-align: center;
     width: 747px;
@@ -625,4 +625,105 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+.used2_p1{
+    width: 325px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.used2_img{
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    flex-shrink: 0;
+}
+.used2_p2{
+    position: relative;
+    left: 75px;
+    bottom: 75px;
+    width: 126px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.used2_p3{
+    position: relative;
+    left: 75px;
+    bottom: 93px;
+    width: 300px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.used3_p1{
+    margin-left: 20px;
+    padding-top: 15px;
+    width: 313px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.used3_img{
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    flex-shrink: 0;
+}
+.used3_p2{
+    position: relative;
+    left: 70px;
+    bottom: 70px;
+    width: 77px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+
+}
+.used3_p3{
+    position: relative;
+    left: 70px;
+    bottom: 88px;
+    width: 200px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.company_img{
+    position: relative;
+    bottom: 700px;
+    left: 100px;
+    width: 1140px;
+    height: 246px;
+    flex-shrink: 0;
 }
