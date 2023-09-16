@@ -485,11 +485,45 @@ header{
     left: 282px;
     bottom: 343px;
 }
-.under_remote_img{
+.under_remote_button{
+    position: relative;
+    bottom: 300px;
+    left: 500px;
     width: 207px;
     height: 47px;
     flex-shrink: 0;
     border-radius: 9px;
-    background: #FFF;
+    background: #FFF url(/public/images/chrome.svg) no-repeat 10px 10px;;
     box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.10);
+    border-style:double;
+    box-shadow: 0 0 35px aqua;
+}
+.under_remote_button2{
+    position: relative;
+    bottom: 300px;
+    left: 570px;
+    width: 207px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #FFF url(/public/images/firefox.svg) no-repeat 10px 10px;
+    box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.10);
+    border-style:double;
+    box-shadow: 0 0 35px orange;
+}
+.link_under_remote{
+    width: 149px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.86px;
+    text-align: center;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.link_under_remote:hover{
+    opacity: 0.7;
+
 }
