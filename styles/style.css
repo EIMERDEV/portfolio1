@@ -463,11 +463,33 @@ header{
 .remote_img{
     position: relative;
     bottom: 370px;
-    left:85px;
+    left: 85px;
     width: 1269px;
     height: 821px;
     border-radius: 14px;
     box-shadow: -2px 2px 15px 8px rgba(255, 138, 0, 0.40);
     background: url(<path-to-image>), lightgray 50% / contain no-repeat;
     flex-shrink: 0;
+}
+.shkola{
+    position: relative;
+    width: 877px;
+    height: 96px;
+    color: rgba(18, 16, 12, 0.70);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px; /* 133% */
+    left: 282px;
+    bottom: 343px;
+}
+.uchebnik{
+    width: 207px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #FFF;
+    box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.10);
 }
