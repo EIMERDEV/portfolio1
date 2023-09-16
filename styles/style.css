@@ -5,8 +5,11 @@ body{
     margin-top:10px;
     max-zoom: 200%;
     transform: scale(100%);
+    overflow-x: hidden;
 }
-
+html{
+    width: 960;
+}
 /* Header Start*/
 header{
     height: 50px;
@@ -139,8 +142,6 @@ header{
     position: relative;
     left: 1250px;
     bottom: 25px;
-    width: 1310px;
-    height: 5413px;
     flex-shrink: 0;
 }
 /*Animation links of header start*/
@@ -364,7 +365,7 @@ header{
     position: relative;
     bottom: 56px;
     left: 120px;
-    width: 648px;
+    width: 590px;
     color: rgba(18, 16, 12, 0.70);
     font-family: Roboto;
     font-size: 22px;
