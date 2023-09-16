@@ -358,6 +358,7 @@ header{
     font-weight: 400;
     line-height: 31.92px;
     margin-top: -75px;
+    margin-left: 8px;
 }
 .gray_code{
     position: relative;
