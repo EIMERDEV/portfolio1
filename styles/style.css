@@ -221,13 +221,13 @@ header{
     position: relative;
     left:700px;
     bottom: 350px;
-    width: 630px;
-    height: 652px;
+    width: 450px;
+    height: 420px;
     flex-shrink: 0;
 }
 .try_button{
     position: relative;
-    bottom: 660px;
+    bottom: 430px;
     left: 40px;
     width: 160px;
     height: 46px;
@@ -256,7 +256,7 @@ header{
 }
 .img_try{
     position: relative;
-    bottom: 640px;
+    bottom: 420px;
     left: 48px;
 }
 .try1{
@@ -463,9 +463,9 @@ header{
 .remote_img{
     position: relative;
     bottom: 370px;
-    left: 85px;
-    width: 1269px;
-    height: 821px;
+    left: 240px;
+    width: 1000px;
+    height: 600px;
     border-radius: 14px;
     box-shadow: -2px 2px 15px 8px rgba(255, 138, 0, 0.40);
     background: url(<path-to-image>), lightgray 50% / contain no-repeat;
