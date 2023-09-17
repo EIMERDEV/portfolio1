@@ -6,6 +6,7 @@ body{
     max-zoom: 200%;
     transform: scale(100%);
     overflow-x: hidden;
+    text-align: center;
 }
 html{
     width: 960;
