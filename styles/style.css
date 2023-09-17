@@ -16,19 +16,25 @@ header{
     height: 50px;
 }
 .logo{
-    margin-right: 540px;
+    margin-right: 0px;
     transition: 0.5s;
 }
 .logo:hover{
     box-shadow: 0 0 35px orange;
     border-radius: 75%;
 }
+a.logo_link{
+   width: 131px;
+   height: 40px;
+   flex-shrink: 0;
+   margin-right: 500px;
+   
+}
 .logo_link:hover{
     opacity: 0.8;
-    
 }
 .link1{
-    margin-right: 40px;
+    margin-right: 70px;
     width: 63px;
     color: rgba(18, 16, 12, 0.70);
     font-family: Roboto;
@@ -48,7 +54,7 @@ header{
 
 
 .link2{
-    margin-right: 40px;
+    margin-right: 70px;
     width: 63px;
     color: rgba(18, 16, 12, 0.70);
     font-family: Roboto;
@@ -66,7 +72,7 @@ header{
     transition: background-size .3s;
 }
 .link3{
-    margin-right: 40px;
+    margin-right: 70px;
     width: 63px;
     color: rgba(18, 16, 12, 0.70);
     font-family: Roboto;
@@ -84,7 +90,7 @@ header{
     transition: background-size .3s;
 }
 .link4{
-    margin-right: 40px;
+    margin-right: 70px;
     width: 63px;
     color: rgba(18, 16, 12, 0.70);
     font-family: Roboto;
@@ -102,7 +108,7 @@ header{
     transition: background-size .3s;
 }
 .link5{
-    margin-right: 40px;
+    margin-right: 70px;
     width: 63px;
     color: rgba(18, 16, 12, 0.70);
     font-family: Roboto;
@@ -140,8 +146,9 @@ header{
     text-decoration: none;
 }
 .log_form{
-    position: relative;
-    left: 1250px;
+    position:relative;
+    width: 130px;
+    left: 1700px;
     bottom: 25px;
     flex-shrink: 0;
 }
@@ -185,7 +192,7 @@ header{
 
 .zag{
     position: relative;
-    left: 40px;
+    left: 100px;
     justify-content: space-between;
     width: 263px;
     color: #12100C;
@@ -197,8 +204,8 @@ header{
 }
 .right_zag{
     position: relative;
-    left: 220px;
-    top:55px;
+    left: -290px;
+    top:-45px;
     color: rgba(18, 16, 12, 0.70);
     font-family: Roboto;
     font-size: 15px;
@@ -208,8 +215,8 @@ header{
 }
 .under_zag{
     position: relative;
-    left: 40px;
-    bottom: 30px;
+    left: 100px;
+    bottom: 55px;
     width: 402px;
     color: rgba(18, 16, 12, 0.70);
     font-family: Roboto;
@@ -217,6 +224,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 31.92px;
+    text-align: left;
 }
 .zag_img{
     position: relative;
@@ -228,8 +236,8 @@ header{
 }
 .try_button{
     position: relative;
-    bottom: 430px;
-    left: 40px;
+    bottom: 530px;
+    left: -480px;
     width: 160px;
     height: 46px;
     border-radius: 16px;
@@ -257,18 +265,27 @@ header{
 }
 .img_try{
     position: relative;
-    bottom: 420px;
-    left: 48px;
+    bottom: 450px;
+    left: 120px;
 }
 .try1{
+    position: relative;
+    bottom: 60px;
+    left: -600px;
     margin-right: 25px;
     transition: 0.5s;
 }
 .try2{
+    position: relative;
+    bottom: 60px;
+    left: -600px;
     margin-right: 25px;
     transition: 0.5s;
 }
 .try3{
+    position: relative;
+    bottom: 60px;
+    left: -600px;
     transition: 0.5s;
 }
 
@@ -290,7 +307,7 @@ header{
 .proj{
     position: relative;
     bottom:400px;
-    left:550px;
+    left:760px;
     width: 362px;
     color: #12100C;
     font-family: Roboto;
@@ -303,7 +320,7 @@ header{
 .proj_line{
     position: relative;
     bottom: 400px;
-    left:200px;
+    left:410px;
     width: 1077px;
     color: #999795;
     font-family: Roboto;
@@ -316,6 +333,7 @@ header{
 }
 .CI{
     position: relative;
+    left: 100px;
     bottom:260px;
     width: 495px;
     color: #12100C;
@@ -325,9 +343,11 @@ header{
     font-weight: 700;
     line-height: 40px;
     margin-left: 40px;
+    text-align: left;
 }
 .CI_p{
     position: relative;
+    left: 100px;
     bottom:260px;
     width: 495px;
     width: 648px;
@@ -338,11 +358,12 @@ header{
     font-weight: 400;
     line-height: 31.92px;
     margin-left: 40px;
+    text-align: left;
 }
 .code_frame{
     position: relative;
     bottom:500px;
-    left: 800px;
+    left: 1000px;
     background-color: black;
     width: 590px;
     height: 520px;
@@ -360,11 +381,12 @@ header{
     font-weight: 400;
     line-height: 31.92px;
     margin-top: -75px;
-    margin-left: 8px;
+    margin-left: 15px;
+    text-align: left;
 }
 .gray_code{
     position: relative;
-    bottom: 56px;
+    bottom: 55px;
     left: 120px;
     width: 590px;
     color: rgba(18, 16, 12, 0.70);
@@ -373,6 +395,8 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 31.92px;
+    margin-left: 10px;
+    text-align: left;
 }
 .gray_code_exit{
     position: relative;
@@ -386,6 +410,8 @@ header{
     font-weight: 400;
     line-height: 31.92px;
     margin-top:0px ;
+    margin-left: 10px;
+    text-align: left;
 }
 .orange_code_git{
     color:orange;
@@ -395,6 +421,8 @@ header{
     font-weight: 400;
     line-height: 31.92px;
     margin-top: -35px;
+    margin-left: 10px;
+    text-align: left;
 }
 .blue_code_git{
     position: relative;
@@ -406,6 +434,8 @@ header{
     font-weight: 400;
     line-height: 31.92px;
     margin-top: -53px;
+    margin-left: 10px;
+    text-align: left;
 }
 .gray_code_git{
     position: relative;
@@ -419,11 +449,13 @@ header{
     font-weight: 400;
     line-height: 31.92px;
     margin-top: 5px ;
+    margin-left: 10px;
+    text-align: left;
 }
 .code_button{
     position: relative;
-    bottom: 680px;
-    left: 40px;
+    bottom: 700px;
+    left: -440px;
     width: 160px;
     height: 46px;
     border-radius: 16px;
@@ -451,7 +483,7 @@ header{
 .remote_zag{
     position: relative;
     bottom: 400px;
-    left: 350px;
+    left:560px;
     width: 775px;
     color: #12100C;
     font-family: Roboto;
@@ -464,7 +496,7 @@ header{
 .remote_img{
     position: relative;
     bottom: 370px;
-    left: 240px;
+    left: 300px;
     width: 1000px;
     height: 600px;
     border-radius: 14px;
@@ -483,13 +515,13 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 31.92px; /* 133% */
-    left: 282px;
+    left: 500px;
     bottom: 343px;
 }
 .under_remote_button{
     position: relative;
     bottom: 300px;
-    left: 400px;
+    left: 100px;
     width: 207px;
     height: 47px;
     flex-shrink: 0;
@@ -502,7 +534,7 @@ header{
 .under_remote_button2{
     position: relative;
     bottom: 347px;
-    left: 800px;
+    left: 500px;
     width: 207px;
     height: 47px;
     flex-shrink: 0;
@@ -531,7 +563,7 @@ header{
 .dev{    
     position: relative;
     bottom: 70px;
-    left:340px;
+    left:580px;
     text-align: center;
     width: 747px;
     color: #12100C;
@@ -543,6 +575,8 @@ header{
 
 }
 .used1{
+    position: relative;
+    left: 150px;
     width: 384px;
     height: 248px;
     border-radius: 16px;
@@ -553,7 +587,7 @@ header{
 }
 .used2{
     position: relative;
-    left:500px;
+    left:730px;
     bottom: 350px;
     width: 384px;
     height: 248px;
@@ -564,7 +598,7 @@ header{
 }
 .used3{
     position: relative;
-    left: 950px;
+    left: 1250px;
     bottom: 698px;
     width: 384px;
     height: 248px;
@@ -583,6 +617,7 @@ header{
     line-height: 24px;
     margin-left: 20px;
     padding-top: 15px;
+    text-align: left;
 }
 .used1_p2{
     width:335px;
@@ -594,6 +629,7 @@ header{
     line-height: 24px;
     margin-left: 20px;
     padding-top: 0px;
+    text-align: left;
 }
 .used1_img{
     width: 48px;
@@ -601,7 +637,8 @@ header{
     border-radius: 9999px;
     background: url(<path-to-image>), lightgray 50% / contain no-repeat;
     flex-shrink: 0;
-    margin-left: 15px;
+    margin-left: -300px;
+
 }
 .used1_p3{
     position: relative;
@@ -614,6 +651,7 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
+    text-align: left;
 }
 .used1_p4{
     position: relative;
@@ -626,6 +664,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    text-align: left;
 }
 .used2_p1{
     width: 325px;
@@ -637,11 +676,12 @@ header{
     line-height: 24px;
     margin-left: 20px;
     padding-top: 15px;
+    text-align: left;
 }
 .used2_img{
     position: relative;
     bottom: 10px;
-    left: 15px;
+    left: -155px;
     width: 48px;
     height: 48px;
     border-radius: 9999px;
@@ -659,6 +699,7 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
+    text-align: left;
 }
 .used2_p3{
     position: relative;
@@ -671,6 +712,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    text-align: left;
 }
 .used3_p1{
     margin-left: 20px;
@@ -682,11 +724,12 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    text-align: left;
 }
 .used3_img{
     position: relative;
     bottom: 5px;
-    left: 15px;
+    left: -155px;
     width: 48px;
     height: 48px;
     border-radius: 9999px;
@@ -704,6 +747,7 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
+    text-align: left;
 
 
 }
@@ -718,12 +762,13 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    text-align: left;
 }
 
 .company_img{
     position: relative;
-    bottom: 700px;
-    left: 100px;
+    bottom: 750px;
+    left: 240px;
     width: 1140px;
     height: 246px;
     flex-shrink: 0;

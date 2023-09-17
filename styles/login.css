@@ -14,8 +14,8 @@ body{
 }
 .logo{
     position: relative;
-    bottom: 335px;
-    right: 400px;
+    bottom: 445px;
+    right: 625px;
     transition: 0.5s;
     margin-right: 120px;
 }
