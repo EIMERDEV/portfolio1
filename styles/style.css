@@ -773,3 +773,186 @@ a.logo_link{
     height: 246px;
     flex-shrink: 0;
 }
+.get{
+    position: relative;
+    left: 750px;
+    bottom: 600px;
+    width: 398px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.82px;
+    text-align: center;
+}
+.repository{
+    position: relative;
+    left: 100px;
+    bottom: 500px;
+    width: 642px;
+    height: 651px;
+    border-radius: 20px;
+    background: #FFF;
+    flex-shrink: 0;
+}
+.Git{
+    color: #12100C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    padding-top: 56px;
+}
+.sel{
+    position: relative;
+    left: 30px;
+    width: 600px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    text-align: center;
+}
+.gitlab{
+    width: 262px;
+    height: 46px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    background: #FC6D26 url(/public/images/git1.svg) no-repeat 30px 9px;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+
+}
+.github{
+    width: 262px;
+    height: 46px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    background: #000 url(/public/images/git2.svg) no-repeat 30px 7px;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+}
+.bitbucked{
+    width: 262px;
+    height: 46px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    background: #2684FF url(/public/images/git3.svg) no-repeat 30px 7px;
+    flex-shrink: 0;
+
+}
+.git_link{
+    width: 132px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.git_link:hover{
+    opacity: 0.7;
+}
+.bit_link{
+    width: 132px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.bit_link:hover{
+    opacity: 0.7;
+}
+
+.prefix{
+    position: relative;
+    left: 70px;
+    width: 486px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    text-align: center;
+}
+.gitpodio{
+    position: relative;
+    left: 236px;
+    bottom: 10px;
+    width: 119px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    text-align: center;
+    width: 151px;
+    height: 31px;
+    border-radius: 12px;
+    background: #FFE4BC;
+    flex-shrink: 0;
+}
+.launch{
+    position: relative;
+    left: 1100px;
+    bottom: 1175px;
+    width: 642px;
+    height: 651px;
+    border-radius: 20px;
+    background: #FFF;
+    flex-shrink: 0;
+}
+.lzag{
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 46px;
+}
+.lunder{
+    position: relative;
+    left: 25px;
+    width: 600px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.92px;
+    text-align: center;
+}
+.div_launch{
+    width: 530px;
+    height: 56px;
+    border-radius: 12px;
+    background: #F9F9F9 url();
+    flex-shrink: 0;
+    margin: 23px;
+}
+.ldiv1{
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
