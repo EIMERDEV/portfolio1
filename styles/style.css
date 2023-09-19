@@ -1,21 +1,20 @@
-body{
-    height: 3000px;
-    background-color: rgba(241, 241, 241, 0.7);
-    position: absolute;
+body {
+    background-color: rgba(238, 238, 238, 0.7);
     margin-top:10px;
     max-zoom: 200%;
     transform: scale(100%);
     overflow-x: hidden;
     text-align: center;
+    overflow: scroll;
 }
-html{
-    width: 960;
-}
+
 /* Header Start*/
 header{
     height: 50px;
 }
 .logo{
+    position: relative;
+    right: 290px;
     margin-right: 0px;
     transition: 0.5s;
 }
@@ -204,7 +203,7 @@ a.logo_link{
 }
 .right_zag{
     position: relative;
-    left: -290px;
+    left: -590px;
     top:-45px;
     color: rgba(18, 16, 12, 0.70);
     font-family: Roboto;
@@ -228,7 +227,7 @@ a.logo_link{
 }
 .zag_img{
     position: relative;
-    left:700px;
+    left:200px;
     bottom: 350px;
     width: 450px;
     height: 420px;
@@ -237,7 +236,7 @@ a.logo_link{
 .try_button{
     position: relative;
     bottom: 530px;
-    left: -480px;
+    right: 785px;
     width: 160px;
     height: 46px;
     border-radius: 16px;
@@ -271,21 +270,21 @@ a.logo_link{
 .try1{
     position: relative;
     bottom: 60px;
-    left: -600px;
+    right: 785px;
     margin-right: 25px;
     transition: 0.5s;
 }
 .try2{
     position: relative;
     bottom: 60px;
-    left: -600px;
+    right: 785px;
     margin-right: 25px;
     transition: 0.5s;
 }
 .try3{
     position: relative;
     bottom: 60px;
-    left: -600px;
+    right: 785px;
     transition: 0.5s;
 }
 
@@ -455,7 +454,7 @@ a.logo_link{
 .code_button{
     position: relative;
     bottom: 700px;
-    left: -440px;
+    right: 745px;
     width: 160px;
     height: 46px;
     border-radius: 16px;
@@ -483,7 +482,7 @@ a.logo_link{
 .remote_zag{
     position: relative;
     bottom: 400px;
-    left:560px;
+    left:550px;
     width: 775px;
     color: #12100C;
     font-family: Roboto;
@@ -496,7 +495,7 @@ a.logo_link{
 .remote_img{
     position: relative;
     bottom: 370px;
-    left: 300px;
+    left: px;
     width: 1000px;
     height: 600px;
     border-radius: 14px;
@@ -521,7 +520,7 @@ a.logo_link{
 .under_remote_button{
     position: relative;
     bottom: 300px;
-    left: 100px;
+    left: -300px;
     width: 207px;
     height: 47px;
     flex-shrink: 0;
@@ -534,7 +533,7 @@ a.logo_link{
 .under_remote_button2{
     position: relative;
     bottom: 347px;
-    left: 500px;
+    left: 300px;
     width: 207px;
     height: 47px;
     flex-shrink: 0;
@@ -768,7 +767,7 @@ a.logo_link{
 .company_img{
     position: relative;
     bottom: 750px;
-    left: 240px;
+    left: -30px;
     width: 1140px;
     height: 246px;
     flex-shrink: 0;
@@ -939,11 +938,11 @@ a.logo_link{
     line-height: 31.92px;
     text-align: center;
 }
-.div_launch{
+.div_launch1{
     width: 530px;
     height: 56px;
     border-radius: 12px;
-    background: #F9F9F9 url();
+    background: #F9F9F9 url(/public/images/typescipts.svg) no-repeat 30px;
     flex-shrink: 0;
     margin: 23px;
 }
@@ -955,4 +954,321 @@ a.logo_link{
     font-weight: 400;
     line-height: 20px;
     text-align: left;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+.l_button{
+    position: relative;
+    bottom: 45px;
+    left: 180px;
+    width: 143px;
+    height: 32px;
+    border-radius: 12px;
+    background: #12100C;
+    flex-shrink: 0;
+    transition: 0.3s;
+}
+.l_button:hover{
+    position: relative;
+    bottom: 55px;
+    width: 180px;
+    height:56px;
+    box-shadow: 0 0 30px rgba(191, 251, 253, 0.774);
+    
+    
+}
+.link_button_launch{
+    width: 119px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.div_launch2{
+    width: 530px;
+    height: 56px;
+    border-radius: 12px;
+    background: #F9F9F9 url(/public/images/python.svg) no-repeat 30px;
+    flex-shrink: 0;
+    margin: 23px;
+}
+.div_launch3{
+    width: 530px;
+    height: 56px;
+    border-radius: 12px;
+    background: #F9F9F9 url(/public/images/go.svg) no-repeat 30px;
+    flex-shrink: 0;
+    margin: 23px;
+}
+.div_launch4{
+    width: 530px;
+    height: 56px;
+    border-radius: 12px;
+    background: #F9F9F9 url(/public/images/rust.svg) no-repeat 30px;
+    flex-shrink: 0;
+    margin: 23px;
+}
+.div_launch5{
+    width: 530px;
+    height: 56px;
+    border-radius: 12px;
+    background: #F9F9F9 url(/public/images/java.svg) no-repeat 30px;
+    flex-shrink: 0;
+    margin: 23px;
+}
+.div_launch6{
+    width: 530px;
+    height: 56px;
+    border-radius: 12px;
+    background: #F9F9F9 url(/public/images/svelte.svg) no-repeat 30px;
+    flex-shrink: 0;
+    margin: 23px;
+}
+.ldiv2{
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+.ldiv3{
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+.ldiv4{
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+.ldiv5{
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+.ldiv6{
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+.link_button_launch:hover{
+    opacity: 0.7;
+}
+/* Main Eng */
+
+/* Footer Start */
+
+.footer{
+    position: relative;
+    right: 8px;
+    bottom: 800px;
+    width: 1920px;
+    height: 460px;
+    background: #F9F9F9;
+    flex-shrink: 0;
+}
+span{
+    position: relative;
+    left: 100px;
+    display: inline-flex;
+    width: 41px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin-right: 350px;
+}
+.footer_h{
+    display: inline-flex;
+    width: 41px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin-right: 230px;
+}
+.footer_p{
+    position: relative;
+    right: 343px;
+    top: 15px;
+    width: 105px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.5px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer_h3{
+    position: relative;
+    right: 10px;
+    width: 41px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin-right: 230px;
+}
+.footer_h4{
+    position: relative;
+    right: 8px;
+    display: inline-flex;
+    width: 41px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin-right: 230px;
+}
+.footer_h5{
+    position: relative;
+    right: 4px;
+    display: inline-flex;
+    width: 41px;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin-right: 230px;
+}
+.footer_p a{
+    text-decoration: none;
+    width: 35px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+.footer_p a:hover{
+    opacity: 0.7;
+
+}
+.img_footer{
+    position: relative;
+    right: 1500px;
+    top: 400px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.img_copy{
+    position: relative;
+    left: 260px;
+    top: 128px;
+    width: 150px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+.contact_info{
+    position: relative;
+    left: 500px;
+    top: 100px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+.coockie{
+    position: relative;
+    bottom: 825px;
+    right: 10px;
+    width: 1920px;
+    height: 48px;
+    background: #ECE7E5;
+    flex-shrink: 0;
+}
+.coockie_p{
+    position: relative;
+    right: 100px;
+    top: 10px;
+    width: 1000px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.a_coockie{
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.coockie_button_link{
+    width: 115px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+.coockie_button{
+     position: relative;
+     bottom: 32px;
+     left: 800px;
+     width: 163px;
+     height: 32px;
+     border-radius: 8px;
+     background: #F9F9F9;
+     flex-shrink: 0;
+}
+.coockie_button_link:hover{
+    opacity: 0.7;
 }
