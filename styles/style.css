@@ -1,4 +1,6 @@
-
+main{
+    height: 5000px;
+}
 body {
     background-color: rgba(238, 238, 238, 0.7);
     overflow-x: hidden;
@@ -234,7 +236,7 @@ a.logo_link{
 .try_button{
     position: relative;
     bottom: 530px;
-    right: 785px;
+    right: 770px;
     width: 160px;
     height: 46px;
     border-radius: 16px;
@@ -263,7 +265,7 @@ a.logo_link{
 .img_try{
     position: relative;
     bottom: 450px;
-    left: 120px;
+    left: 140px;
 }
 .try1{
     position: relative;
@@ -452,7 +454,7 @@ a.logo_link{
 .code_button{
     position: relative;
     bottom: 700px;
-    right: 745px;
+    right: 730px;
     width: 160px;
     height: 46px;
     border-radius: 16px;
@@ -913,6 +915,7 @@ a.logo_link{
     border-radius: 20px;
     background: #FFF;
     flex-shrink: 0;
+    margin-bottom: -700px;
 }
 .lzag{
     color: #12100C;
@@ -1091,8 +1094,8 @@ a.logo_link{
 .footer{
     position: relative;
     right: 8px;
-    bottom: 800px;
-    width: 1920px;
+    bottom: 0px;
+    width: 100%;
     height: 460px;
     background: #F9F9F9;
     flex-shrink: 0;
@@ -1217,56 +1220,58 @@ span{
     flex-shrink: 0;
     margin-right: 16px;
 }
-.coockie{
-    position: relative;
-    bottom: 825px;
+.cookie-block{
+    position: fixed;
+    bottom: 0px;
     right: 10px;
     width: 1920px;
     height: 48px;
     background: #ECE7E5;
     flex-shrink: 0;
 }
-.coockie_p{
-    position: relative;
-    right: 100px;
-    top: 10px;
-    width: 1000px;
-    color: rgba(18, 16, 12, 0.70);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-.a_coockie{
-    color: rgba(18, 16, 12, 0.70);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-.coockie_button_link{
-    width: 115px;
-    color: rgba(18, 16, 12, 0.70);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    text-decoration: none;
-}
-.coockie_button{
+
+
+.ok{
      position: relative;
-     bottom: 32px;
+     bottom: 45px;
      left: 800px;
      width: 163px;
      height: 32px;
      border-radius: 8px;
      background: #F9F9F9;
      flex-shrink: 0;
+     color: rgba(18, 16, 12, 0.70);
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+     text-align: center;
 }
-.coockie_button_link:hover{
+.cookie-p{
+    position: relative;
+    left: 50px;
+    top: 0px;
+    width: 700px;
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.cookie-link{
+    position: relative;
+    bottom: 1px;
+    width: 99px;
+    color: rgba(18, 16, 12, 0.59);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+.ok:hover{
     opacity: 0.7;
 }
