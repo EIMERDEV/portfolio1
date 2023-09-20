@@ -1,11 +1,9 @@
+
 body {
     background-color: rgba(238, 238, 238, 0.7);
-    margin-top:10px;
-    max-zoom: 200%;
-    transform: scale(100%);
     overflow-x: hidden;
     text-align: center;
-    overflow: scroll;
+    height: inherit;
 }
 
 /* Header Start*/
